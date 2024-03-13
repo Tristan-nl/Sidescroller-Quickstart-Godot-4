@@ -13,6 +13,8 @@ var animation_locked : bool = false
 var direction : Vector2 = Vector2.ZERO
 var was_in_air : bool = false
 
+
+
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
